@@ -1,4 +1,3 @@
-$d = "Vifm"
-$dataPath = $env:APPDATA | Join-Path -ChildPath $d
-$srcPath = $PSScriptRoot | Join-Path -ChildPath $d
+$dataPath = $env:USERPROFILE | Join-Path -ChildPath ".vifm"
+$srcPath = $PSScriptRoot | Join-Path -ChildPath ".vifm"
 New-Item -Path $dataPath -Value $srcPath -ItemType Junction -Confirm -Force

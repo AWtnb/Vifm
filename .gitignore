@@ -1,6 +1,6 @@
 # Trash and temporary files
-Vifm/Trash/
-Vifm/vifminfo.json
+.vifm/Trash/
+.vifm/vifminfo.json
 
-Vifm/*.tmp
-Vifm/*.swp
+.vifm/*.tmp
+.vifm/*.swp
